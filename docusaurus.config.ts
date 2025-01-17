@@ -75,7 +75,7 @@ const config: Config = {
       title: "Strohballenhaus Rössing",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/logo.webp",
       },
       items: [
         {
