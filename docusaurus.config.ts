@@ -1,10 +1,22 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import tailwindPlugin from "./plugins/tailwind.js";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  plugins: [
+    "docusaurus-plugin-zooming",
+    tailwindPlugin,
+    ["@docusaurus/plugin-ideal-image", {
+      quality: 70,
+      max: 1030, // max resized image's size.
+      min: 640, // min resized image's size. if original is lower, use that size.
+      steps: 2, // the max number of images generated between min and max (inclusive)
+      disableInDev: false,
+    }],
+  ],
   title: "Strohballenhaus Rössing",
   tagline: "Alles zum Strohballenhaus der Baufamilie Keller aus Rössing",
   favicon: "img/favicon.ico",
@@ -111,7 +123,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${
         new Date().getFullYear()
-      } Levin Keler. Built with Docusaurus.`,
+      } Levin Keller. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
