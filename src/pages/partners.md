@@ -2,7 +2,7 @@
 
 ## Architektur
 
-Olaf Böhm, [b-wohnbar](https://b-wohnbar.com/).
+vakant
 
 ## Statik
 
