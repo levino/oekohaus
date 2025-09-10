@@ -111,7 +111,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${
         new Date().getFullYear()
-      } Levin Keler. Built with Docusaurus.`,
+      } Levin Keller. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
