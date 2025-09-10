@@ -114,5 +114,5 @@ Ein Bewerbungs- oder Motivationsschreiben ist nicht notwendig. Wir gehen davon
 aus, dass Sie grundsätzlich interessiert sind, wenn Sie sich bei uns melden. Wir
 überzeugen uns von Ihrer Motivation gerne im persönlichen Gespräch.
 
-Für die Bewerbung oder Rückfragen, schicken Sie uns eine
+Für die Bewerbung oder Rückfragen schicken Sie uns eine
 [E-Mail](mailto:post@levinkeller.de).
