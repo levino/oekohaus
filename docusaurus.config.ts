@@ -5,12 +5,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Strohballenhaus Rössing",
-  tagline: "Alles zum Strohballenhaus der Baufamilie Keller aus Rössing",
+  title: "Ökohaus Rössing",
+  tagline: "Berichte und Unterlagen zum Ökohaus der Baufamilie Keller aus Rössing",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://strohballenhaus.rössing.de/",
+  url: "https://ökohaus.rössing.de/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "levino", // Usually your GitHub org/user name.
-  projectName: "strohballenhaus-roessing", // Usually your repo name.
+  projectName: "oekohaus", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/levino/strohballenhaus-roessing/tree/main",
+            "https://github.com/levino/oekohaus/tree/main",
         },
         blog: {
           routeBasePath: "/berichte",
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/levino/strohballenhaus-roessing/tree/main",
+            "https://github.com/levino/oekohaus/tree/main",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -72,7 +72,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/logo.webp",
     navbar: {
-      title: "Strohballenhaus Rössing",
+      title: "Ökohaus Rössing",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.webp",
@@ -104,7 +104,7 @@ const config: Config = {
             },
             {
               label: "Quellcode",
-              href: "https://github.com/levino/strohballenhaus-roessing",
+              href: "https://github.com/levino/oekohaus",
             },
           ],
         },
